@@ -167,7 +167,7 @@ def mode(bot, trigger):
 @UnivBot.module.example('.set core.owner Me')
 def set_config(bot, trigger):
     """Muestra y modifica parámetros del bot.
-       Solo puede ser ejecutado por un administrador del bot en mensaje privado.
+       Solo para uso de los admin por mensaje privado.
 
     Argumentos:
         arg1 - sección y opción en el formato "section.option"
